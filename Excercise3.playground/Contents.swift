@@ -157,7 +157,7 @@ func numberToLetter(number: Int) -> String{
     case 0:
         letter = "z"
     default:
-        letter = ""
+        break
     }
     return letter
 }
