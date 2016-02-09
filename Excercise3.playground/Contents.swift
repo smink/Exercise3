@@ -43,57 +43,57 @@ func letterToNumber(letter: Character) -> Int{
     var number = 0
     switch letter {
     case "a":
-        number = 1
-    case "b":
-        number = 2
-    case "c":
-        number = 3
-    case "d":
-        number = 4
-    case "e":
-        number = 5
-    case "f":
-        number = 6
-    case "g":
-        number = 7
-    case "h":
-        number = 8
-    case "i":
-        number = 9
-    case "j":
-        number = 10
-    case "k":
-        number = 11
-    case "l":
-        number = 12
-    case "m":
-        number = 13
-    case "n":
-        number = 14
-    case "o":
-        number = 15
-    case "p":
-        number = 16
-    case "q":
-        number = 17
-    case "r":
-        number = 18
-    case "s":
-        number = 19
-    case "t":
-        number = 20
-    case "u":
-        number = 21
-    case "v":
-        number = 22
-    case "w":
-        number = 23
-    case "x":
-        number = 24
-    case "y":
-        number = 25
-    case "z":
         number = 0
+    case "b":
+        number = 1
+    case "c":
+        number = 2
+    case "d":
+        number = 3
+    case "e":
+        number = 4
+    case "f":
+        number = 5
+    case "g":
+        number = 6
+    case "h":
+        number = 7
+    case "i":
+        number = 8
+    case "j":
+        number = 9
+    case "k":
+        number = 10
+    case "l":
+        number = 11
+    case "m":
+        number = 12
+    case "n":
+        number = 13
+    case "o":
+        number = 14
+    case "p":
+        number = 15
+    case "q":
+        number = 16
+    case "r":
+        number = 17
+    case "s":
+        number = 18
+    case "t":
+        number = 19
+    case "u":
+        number = 20
+    case "v":
+        number = 21
+    case "w":
+        number = 22
+    case "x":
+        number = 23
+    case "y":
+        number = 24
+    case "z":
+        number = 25
     default:
         break
     }
@@ -104,57 +104,57 @@ func letterToNumber(letter: Character) -> Int{
 func numberToLetter(number: Int) -> String{
     var letter = ""
     switch number {
-    case 1:
-        letter = "a"
-    case 2:
-        letter = "b"
-    case 3:
-        letter = "c"
-    case 4:
-        letter = "d"
-    case 5:
-        letter = "e"
-    case 6:
-        letter = "f"
-    case 7:
-        letter = "g"
-    case 8:
-        letter = "h"
-    case 9:
-        letter = "i"
-    case 10:
-        letter = "j"
-    case 11:
-        letter = "k"
-    case 12:
-        letter = "l"
-    case 13:
-        letter = "m"
-    case 14:
-        letter = "n"
-    case 15:
-        letter = "o"
-    case 16:
-        letter = "p"
-    case 17:
-        letter = "q"
-    case 18:
-        letter = "r"
-    case 19:
-        letter = "s"
-    case 20:
-        letter = "t"
-    case 21:
-        letter = "u"
-    case 22:
-        letter = "v"
-    case 23:
-        letter = "w"
-    case 24:
-        letter = "x"
-    case 25:
-        letter = "y"
     case 0:
+        letter = "a"
+    case 1:
+        letter = "b"
+    case 2:
+        letter = "c"
+    case 3:
+        letter = "d"
+    case 4:
+        letter = "e"
+    case 5:
+        letter = "f"
+    case 6:
+        letter = "g"
+    case 7:
+        letter = "h"
+    case 8:
+        letter = "i"
+    case 9:
+        letter = "j"
+    case 10:
+        letter = "k"
+    case 11:
+        letter = "l"
+    case 12:
+        letter = "m"
+    case 13:
+        letter = "n"
+    case 14:
+        letter = "o"
+    case 15:
+        letter = "p"
+    case 16:
+        letter = "q"
+    case 17:
+        letter = "r"
+    case 18:
+        letter = "s"
+    case 19:
+        letter = "t"
+    case 20:
+        letter = "u"
+    case 21:
+        letter = "v"
+    case 22:
+        letter = "w"
+    case 23:
+        letter = "x"
+    case 24:
+        letter = "y"
+    case 25:
         letter = "z"
     default:
         break
